@@ -34,3 +34,6 @@ while True:
 with open(r"C:\Users\Ibrahin Leon\Desktop\pycharm\inputDates.txt") as file:
     dates = [parse_date(date) for date in file if is_valid_date(date)]
 
+# Part C: Write correct dates to "parsedDates.txt" file
+with open("parsedDates.txt", 'w') as wfile:
+    wfile.write(''.join(dates))
