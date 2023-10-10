@@ -30,3 +30,7 @@ while True:
     if is_valid_date(date):
          dates.append(parse_date(date))
          print(dates)
+# Part B: Read dates from "inputDates.txt" file
+with open(r"C:\Users\Ibrahin Leon\Desktop\pycharm\inputDates.txt") as file:
+    dates = [parse_date(date) for date in file if is_valid_date(date)]
+
