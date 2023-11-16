@@ -1,3 +1,4 @@
+# Ibrahin                         #2242810
 # opened and getting readdy to write
 Roster = open('FullRoster.csv', mode="w")
 Scholarship = open("ScholarshipCandidates-1.csv", mode= "w")
